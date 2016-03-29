@@ -1,12 +1,3 @@
-/*
- * WIBDataSourceLookup.java
- *
- * 作成者      : SOFTEC D.KAWAKITA
- * 作成日      : 2005/08/17
- * 更新履歴    更新日     担当者               内容
- * 01.00.00    20050817   SOFTEC D.KAWAKITA    新規作成
- * 01.01.00    20050915   SFOTEC D.KAWAKITA    StaleConnectionException対応
- */
 package jp.co.token.optout;
 
 import java.sql.*;
