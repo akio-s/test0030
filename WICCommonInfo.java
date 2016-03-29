@@ -1,52 +1,44 @@
-/*
- * WICCommonInfo
- *
- * ì¬Ò      : SOFTEC D.KAWAKITA
- * ì¬“ú      : 2005/08/16
- * XV—š—ğ    XV“ú     ’S“–Ò               “à—e
- * 01.00.00    20050816   SOFTEC D.KAWAKITA    V‹Kì¬
- */
 package jp.co.token.optout;
 
 import jp.co.token.optout.util.Tools;
 
 /**
- * ‹¤’ÊƒZƒbƒVƒ‡ƒ“î•ñƒNƒ‰ƒX
+ * å…±é€šã‚»ãƒƒã‚·ãƒ§ãƒ³æƒ…å ±ã‚¯ãƒ©ã‚¹
  *
  * @author SOFTEC(D.KAWAKITA)
  * @version 01.00.00
  */
 public class WICCommonInfo {
-	/** optout‘¶İFLAG */
+	/** optoutå­˜åœ¨FLAG */
     private String exist;
-    /** ƒ†[ƒU[‚h‚c */
+    /** ãƒ¦ãƒ¼ã‚¶ãƒ¼ï¼©ï¼¤ */
     private String userID;
-    /** ƒ†[ƒU[–¼ */
+    /** ãƒ¦ãƒ¼ã‚¶ãƒ¼å */
     private String userName;
-    /** ƒpƒXƒ[ƒh */
+    /** ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ */
     private String password;
-    /** Œ‹¥‹L”O“úw¦ƒtƒ‰ƒO */
+    /** çµå©šè¨˜å¿µæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚° */
     private String weddingFlag;
-    /** Œ‹¥‹L”O“ú”zM’â~w¦“ú */
+    /** çµå©šè¨˜å¿µæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥ */
     private String weddingStopDate;
-    /** ’a¶“úw¦ƒtƒ‰ƒO */
+    /** èª•ç”Ÿæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚° */
     private String birthdayFlag;
-    /** ’a¶“ú”zM’â~w¦“ú */
+    /** èª•ç”Ÿæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥ */
     private String birthdayStopDate;
-    /** ”z‹ôÒ’a¶“úw¦ƒtƒ‰ƒO */
+    /** é…å¶è€…èª•ç”Ÿæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚° */
     private String spouseFlag;
-    /** ”z‹ôÒ’a¶“ú”zM’â~w¦“ú */
+    /** é…å¶è€…èª•ç”Ÿæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥ */
     private String spouseStopDate;
 
-    /** ÀsŠÂ‹«http */
+    /** å®Ÿè¡Œç’°å¢ƒhttp */
     private String hostHttp;
-    /** ÀsŠÂ‹«URL */
+    /** å®Ÿè¡Œç’°å¢ƒURL */
     private String hostUrl;
-    /** ÀsŠÂ‹«ƒRƒ“ƒeƒLƒXƒg */
+    /** å®Ÿè¡Œç’°å¢ƒã‚³ãƒ³ãƒ†ã‚­ã‚¹ãƒˆ */
     private String url;
 
     /**
-     * ƒRƒ“ƒXƒgƒ‰ƒNƒ^.
+     * ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿.
      *
      */
     public WICCommonInfo(){                
@@ -54,81 +46,81 @@ public class WICCommonInfo {
     }
 
     /**
-     * optout‘¶İFLAG‚Ìsetter.
+     * optoutå­˜åœ¨FLAGã®setter.
      *
-     * @param isExsit optout‘¶İFLAG
+     * @param isExsit optoutå­˜åœ¨FLAG
      */
     public void setExist(String exist) {
         this.exist = exist;
     }
 
     /**
-     * optout‘¶İFLAG‚Ìgetter.
+     * optoutå­˜åœ¨FLAGã®getter.
      *
-     * @return optout‘¶İFLAG
+     * @return optoutå­˜åœ¨FLAG
      */
     public String getExist() {
         return this.exist;
     }
 
     /**
-     * ƒ†[ƒU[‚h‚c‚Ìsetter.
+     * ãƒ¦ãƒ¼ã‚¶ãƒ¼ï¼©ï¼¤ã®setter.
      *
-     * @param userID ƒ†[ƒU[‚h‚c
+     * @param userID ãƒ¦ãƒ¼ã‚¶ãƒ¼ï¼©ï¼¤
      */
     public void setUserID(String userID) {
         this.userID = userID;
     }
 
     /**
-     * ƒ†[ƒU[‚h‚c‚Ìgetter.
+     * ãƒ¦ãƒ¼ã‚¶ãƒ¼ï¼©ï¼¤ã®getter.
      *
-     * @return ƒ†[ƒU[‚h‚c
+     * @return ãƒ¦ãƒ¼ã‚¶ãƒ¼ï¼©ï¼¤
      */
     public String getUserID() {
         return this.userID;
     }
 
     /**
-     * ƒ†[ƒU[–¼‚Ìsetter.
+     * ãƒ¦ãƒ¼ã‚¶ãƒ¼åã®setter.
      *
-     * @param userName ƒ†[ƒU[–¼
+     * @param userName ãƒ¦ãƒ¼ã‚¶ãƒ¼å
      */
     public void setUserName(String userName) {
         this.userName = userName;
     }
 
     /**
-     * ƒ†[ƒU[–¼‚Ìgetter.
+     * ãƒ¦ãƒ¼ã‚¶ãƒ¼åã®getter.
      *
-     * @return ƒ†[ƒU[–¼
+     * @return ãƒ¦ãƒ¼ã‚¶ãƒ¼å
      */
     public String getUserName() {
         return this.userName;
     }
 
     /**
-     * ƒpƒXƒ[ƒh‚Ìsetter.
+     * ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã®setter.
      *
-     * @param password ƒpƒXƒ[ƒh
+     * @param password ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰
      */
     public void setPassword(String password) {
         this.password = password;
     }
 
     /**
-     * ƒpƒXƒ[ƒh‚Ìgetter.
+     * ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã®getter.
      *
-     * @return ƒpƒXƒ[ƒh
+     * @return ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰
      */
     public String getPassword() {
         return this.password;
     }
 
     /**
-     * Œ‹¥‹L”O“úw¦ƒtƒ‰ƒO‚Ìsetter.
+     * çµå©šè¨˜å¿µæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚°ã®setter.
      *
-     * @param weddingFlag Œ‹¥‹L”O“úw¦ƒtƒ‰ƒO
+     * @param weddingFlag çµå©šè¨˜å¿µæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚°
      */
     public void setWeddingFlag(String weddingFlag) {
         this.weddingFlag = weddingFlag;
@@ -138,18 +130,18 @@ public class WICCommonInfo {
     }
 
     /**
-     * Œ‹¥‹L”O“úw¦ƒtƒ‰ƒO‚Ìgetter.
+     * çµå©šè¨˜å¿µæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚°ã®getter.
      *
-     * @return Œ‹¥‹L”O“úw¦ƒtƒ‰ƒO
+     * @return çµå©šè¨˜å¿µæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚°
      */
     public String getWeddingFlag() {
         return this.weddingFlag;
     }
 
     /**
-     * Œ‹¥‹L”O“ú”zM’â~w¦“ú‚Ìsetter.
+     * çµå©šè¨˜å¿µæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥ã®setter.
      *
-     * @param weddingStopDate Œ‹¥‹L”O“ú”zM’â~w¦“ú
+     * @param weddingStopDate çµå©šè¨˜å¿µæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥
      */
     public void setWeddingStopDate(String weddingStopDate) {
         // null
@@ -157,22 +149,22 @@ public class WICCommonInfo {
             this.weddingStopDate = "00000000";
             return;
         }
-        // ”zMó‘Ô
+        // é…ä¿¡çŠ¶æ…‹
         if (getWeddingFlag().equals("1")) {
             this.weddingStopDate = "00000000";
             return;
         }
-        // ”zM’â~ó‘Ô
+        // é…ä¿¡åœæ­¢çŠ¶æ…‹
         this.weddingStopDate = weddingStopDate;
     }
 
     /**
-     * Œ‹¥‹L”O“ú”zM’â~w¦“ú‚Ìgetter.
+     * çµå©šè¨˜å¿µæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥ã®getter.
      *
-     * @return Œ‹¥‹L”O“ú”zM’â~w¦“ú
+     * @return çµå©šè¨˜å¿µæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥
      */
     public String getWeddingStopDate() {
-        // ”zMó‘Ô
+        // é…ä¿¡çŠ¶æ…‹
         if (getWeddingFlag().equals("1")) {
             return "00000000";
         } else {
@@ -185,9 +177,9 @@ public class WICCommonInfo {
     }
 
     /**
-     * ’a¶“úw¦ƒtƒ‰ƒO‚Ìsetter.
+     * èª•ç”Ÿæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚°ã®setter.
      *
-     * @param birthdayFlag ’a¶“úw¦ƒtƒ‰ƒO
+     * @param birthdayFlag èª•ç”Ÿæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚°
      */
     public void setBirthdayFlag(String birthdayFlag) {
         this.birthdayFlag = birthdayFlag;
@@ -197,18 +189,18 @@ public class WICCommonInfo {
     }
 
     /**
-     * ’a¶“úw¦ƒtƒ‰ƒO‚Ìgetter.
+     * èª•ç”Ÿæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚°ã®getter.
      *
-     * @return ’a¶“úw¦ƒtƒ‰ƒO
+     * @return èª•ç”Ÿæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚°
      */
     public String getBirthdayFlag() {
         return this.birthdayFlag;
     }
 
     /**
-     * ’a¶“ú”zM’â~w¦“ú‚Ìsetter.
+     * èª•ç”Ÿæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥ã®setter.
      *
-     * @param birthdayStopDate ’a¶“ú”zM’â~w¦“ú
+     * @param birthdayStopDate èª•ç”Ÿæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥
      */
     public void setBirthdayStopDate(String birthdayStopDate) {
         // null
@@ -216,22 +208,22 @@ public class WICCommonInfo {
             this.birthdayStopDate = "00000000";
             return;
         }
-        // ”zMó‘Ô
+        // é…ä¿¡çŠ¶æ…‹
         if (getBirthdayFlag().equals("1")) {
             this.birthdayStopDate = "00000000";
             return;
         }
-        // ”zM’â~ó‘Ô
+        // é…ä¿¡åœæ­¢çŠ¶æ…‹
         this.birthdayStopDate = birthdayStopDate;
     }
 
     /**
-     * ’a¶“ú”zM’â~w¦“ú‚Ìgetter.
+     * èª•ç”Ÿæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥ã®getter.
      *
-     * @return ’a¶“ú”zM’â~w¦“ú
+     * @return èª•ç”Ÿæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥
      */
     public String getBirthdayStopDate() {
-        // ”zMó‘Ô
+        // é…ä¿¡çŠ¶æ…‹
         if (getBirthdayFlag().equals("1")) {
             return "00000000";
         } else {
@@ -244,9 +236,9 @@ public class WICCommonInfo {
     }
 
     /**
-     * ”z‹ôÒ’a¶“úw¦ƒtƒ‰ƒO‚Ìsetter.
+     * é…å¶è€…èª•ç”Ÿæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚°ã®setter.
      *
-     * @param spouseFlag ”z‹ôÒ’a¶“úw¦ƒtƒ‰ƒO
+     * @param spouseFlag é…å¶è€…èª•ç”Ÿæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚°
      */
     public void setSpouseFlag(String spouseFlag) {
         this.spouseFlag = spouseFlag;
@@ -256,18 +248,18 @@ public class WICCommonInfo {
     }
 
     /**
-     * ”z‹ôÒ’a¶“úw¦ƒtƒ‰ƒO‚Ìgetter.
+     * é…å¶è€…èª•ç”Ÿæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚°ã®getter.
      *
-     * @return ”z‹ôÒ’a¶“úw¦ƒtƒ‰ƒO
+     * @return é…å¶è€…èª•ç”Ÿæ—¥æŒ‡ç¤ºãƒ•ãƒ©ã‚°
      */
     public String getSpouseFlag() {
         return this.spouseFlag;
     }
 
     /**
-     * ”z‹ôÒ’a¶“ú”zM’â~w¦“ú‚Ìsetter.
+     * é…å¶è€…èª•ç”Ÿæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥ã®setter.
      *
-     * @param spouseStopDate ”z‹ôÒ’a¶“ú”zM’â~w¦“ú
+     * @param spouseStopDate é…å¶è€…èª•ç”Ÿæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥
      */
     public void setSpouseStopDate(String spouseStopDate) {
         // null
@@ -275,22 +267,22 @@ public class WICCommonInfo {
             this.spouseStopDate = "00000000";
             return;
         }
-        // ”zMó‘Ô
+        // é…ä¿¡çŠ¶æ…‹
         if (getSpouseFlag().equals("1")) {
             this.spouseStopDate = "00000000";
             return;
         }
-        // ”zM’â~ó‘Ô
+        // é…ä¿¡åœæ­¢çŠ¶æ…‹
         this.spouseStopDate = spouseStopDate;
     }
 
     /**
-     * ”z‹ôÒ’a¶“ú”zM’â~w¦“ú‚Ìgetter.
+     * é…å¶è€…èª•ç”Ÿæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥ã®getter.
      *
-     * @return ”z‹ôÒ’a¶“ú”zM’â~w¦“ú
+     * @return é…å¶è€…èª•ç”Ÿæ—¥é…ä¿¡åœæ­¢æŒ‡ç¤ºæ—¥
      */
     public String getSpouseStopDate() {
-        // ”zMó‘Ô
+        // é…ä¿¡çŠ¶æ…‹
         if (getSpouseFlag().equals("1")) {
             return "00000000";
         } else {
@@ -303,54 +295,54 @@ public class WICCommonInfo {
     }
 
     /**
-     * ÀsŠÂ‹«http‚Ìsetter.
+     * å®Ÿè¡Œç’°å¢ƒhttpã®setter.
      *
-     * @param hosthttp ÀsŠÂ‹«http
+     * @param hosthttp å®Ÿè¡Œç’°å¢ƒhttp
      */
     public void setHostHttp(String hostHttp) {
         this.hostHttp = hostHttp;
     }
 
     /**
-     * ÀsŠÂ‹«http‚Ìgetter.
+     * å®Ÿè¡Œç’°å¢ƒhttpã®getter.
      *
-     * @return ÀsŠÂ‹«http
+     * @return å®Ÿè¡Œç’°å¢ƒhttp
      */
     public String getHostHttp() {
         return this.hostHttp;
     }
 
     /**
-     * ÀsŠÂ‹«URL‚Ìsetter.
+     * å®Ÿè¡Œç’°å¢ƒURLã®setter.
      *
-     * @param hostUrl ÀsŠÂ‹«URL
+     * @param hostUrl å®Ÿè¡Œç’°å¢ƒURL
      */
     public void setHostUrl(String hostUrl) {
         this.hostUrl = hostUrl;
     }
 
     /**
-     * ÀsŠÂ‹«URL‚Ìgetter.
+     * å®Ÿè¡Œç’°å¢ƒURLã®getter.
      *
-     * @return ÀsŠÂ‹«URL
+     * @return å®Ÿè¡Œç’°å¢ƒURL
      */
     public String getHostUrl() {
         return this.hostUrl;
     }
 
     /**
-     * ÀsŠÂ‹«ƒRƒ“ƒeƒLƒXƒg‚Ìsetter.
+     * å®Ÿè¡Œç’°å¢ƒã‚³ãƒ³ãƒ†ã‚­ã‚¹ãƒˆã®setter.
      *
-     * @param url ÀsŠÂ‹«ƒRƒ“ƒeƒLƒXƒg
+     * @param url å®Ÿè¡Œç’°å¢ƒã‚³ãƒ³ãƒ†ã‚­ã‚¹ãƒˆ
      */
     public void setUrl(String url) {
         this.url = url;
     }
 
     /**
-     * ÀsŠÂ‹«ƒRƒ“ƒeƒLƒXƒg‚Ìgetter.
+     * å®Ÿè¡Œç’°å¢ƒã‚³ãƒ³ãƒ†ã‚­ã‚¹ãƒˆã®getter.
      *
-     * @return ÀsŠÂ‹«ƒRƒ“ƒeƒLƒXƒg
+     * @return å®Ÿè¡Œç’°å¢ƒã‚³ãƒ³ãƒ†ã‚­ã‚¹ãƒˆ
      */
     public String getUrl() {
         return this.url;
